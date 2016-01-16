@@ -1,3 +1,8 @@
+// this function does this.
+/*
+Amazing & Beautiful piece of code. Mind blowing.
+*/
+
 var doCoolStuff = function (){
 	document.getElementById('cool').className = 'cool red';
 }
