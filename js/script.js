@@ -4,7 +4,16 @@ Amazing & Beautiful piece of code. Mind blowing.
 */
 
 var doCoolStuff = function (){
-	document.getElementById('cool').className = 'cool red';
+	//changing class name
+	var currentClassName = document.getElementById('cool').className = 'cool red';
+
+	if (currentClassName == 'cool'){
+		document.getElementById('cool').className = 'cool red';
+
+	} else {
+		document.getElementById('cool').className = 'cool';
+	}
+
 }
 
 var	sayMyName = function (name) {
