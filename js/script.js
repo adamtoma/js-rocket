@@ -5,8 +5,8 @@ Amazing & Beautiful piece of code. Mind blowing.
 
 var doCoolStuff = function (){
 	//changing class name
-	var currentClassName = document.getElementById('cool').className = 'cool red';
-
+	var currentClassName = document.getElementById('cool').className;
+	
 	if (currentClassName == 'cool'){
 		document.getElementById('cool').className = 'cool red';
 
